@@ -1,58 +1,32 @@
-# Welcome to your Expo app 👋
+# Movie App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+## Overview
 
-## Get started
+A **React Native** application built with **Expo NativeWind**. This app includes features like api fetching, dynamic movie fetching, and search.
 
-1. Install dependencies
+## Tech Stack
 
-   ```bash
-   npm install
-   ```
+- **React Native**: For building the mobile app.
+- **Expo**: Tooling and workflow for building React Native apps.
+- **NativeWind**: Utility-first CSS styling for React Native apps.
 
-2. Start the app
+## Pages
+# Home Screen / Search Screen / Dynamic Movie
+<img src=https://github.com/user-attachments/assets/d75e2e8e-7473-4ba2-bcb8-a7e86adcbd37 width="300"/>
+<img src=https://github.com/user-attachments/assets/3a1489bf-5c5c-4a75-a21a-514cc5e9b4a4 width='300'/>
+<img src=https://github.com/user-attachments/assets/dedee82b-f248-4fd2-a9a4-ef6af949d77d width="300"/>
+<img src=https://github.com/user-attachments/assets/5ea8182e-e43a-4ce8-bcc8-237713d0865e width='300'/> 
+ 
+### Prerequisites
 
-   ```bash
-    npx expo start
-   ```
+- Node.js (version 14 or higher)
+- Expo CLI
 
-In the output, you'll find options to open the app in a
+### Installation
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
-# rn-movie-app
-# rn-movie-app
-# rn-movies-app
-# rn-movies-app
-# rn-movies-app
-# rn-movie-app
-# rn-movie-app
-# rn-movie-app
+1. Clone the repository
+2. npm install
+3. Set up backend prerequisite for database connection.
+4. Setup .env file
+EXPO_PUBLIC_movie_API_KEY=
+6. npx expo start -c
