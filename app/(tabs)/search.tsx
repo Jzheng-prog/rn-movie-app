@@ -52,7 +52,7 @@ const search = () => {
             </View>
 
             <View className='my-5'>
-              <SearchBar placeholder='Search ....' value={searchQuery} onChangeText={(text:string)=>setSearchQuery(text)}/>
+              <SearchBar placeholder='Search for a movie' value={searchQuery} onChangeText={(text:string)=>setSearchQuery(text)}/>
             </View>
             {
               movieLoading && (
@@ -69,7 +69,7 @@ const search = () => {
             {
               !movieLoading && !movieError && searchQuery.trim()
               && movies?.length! > 0 && (
-                <Text className='border border-white text-xl text-white font-bold'>
+                <Text className='text-xl text-white font-bold'>
                   Search Result for {' '}
                   <Text className='text-accent'>{searchQuery}</Text>
                 </Text>
